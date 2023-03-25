@@ -20,7 +20,7 @@ int main(void)
     hardware.Init();
 
     // Loop forever
-    for(;;)
+    for (;;)
     {
         // Set the onboard LED
         hardware.SetLed(led_state);

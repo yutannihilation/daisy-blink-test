@@ -26,6 +26,6 @@ $(DAISYSP_DIR):
 download_libs: $(LIBDAISY_DIR) $(DAISYSP_DIR)
 
 clean_libs:
-	rm -r $(LIBDAISY_DIR) $(DAISYSP_DIR)
+	rm -rf $(LIBDAISY_DIR) $(DAISYSP_DIR)
 
 update_libs: clean_libs download_libs
